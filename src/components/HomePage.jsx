@@ -1,7 +1,9 @@
 export default function HomePage() {
     return (
-        <div>
-            <h1>Home Page</h1>
-        </div>
-    )
+      <div>
+        <h1>welcome to summoner's rift</h1>
+      </div>
+
+      
+    );
 }
