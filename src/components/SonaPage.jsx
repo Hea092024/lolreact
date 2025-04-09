@@ -2,7 +2,7 @@ import Header from "./Header";
 import AbilitySection from "./AbilitySection";
 
 export default function HomePage() {
-  // Ability data
+  
   const abilities = [
     {
       id: "first",
