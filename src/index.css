@@ -12,6 +12,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&display=swap');
 
 * {
@@ -23,7 +24,6 @@
 body {
   font-family: 'Agdasima', sans-serif;
 }
-
 
 header {
   background-color: #0a0a0a;
@@ -81,7 +81,6 @@ nav ul li a:hover {
   border: 1px solid #333;
 }
 
-
 .bg-img {
   height: 100vh;
   display: flex;
@@ -93,30 +92,9 @@ nav ul li a:hover {
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
 }
 
-#first {
-  background-image: url('./assets/Sona1.jpg');
-}
-
-#second {
-  background-image: url('./assets/Sona2.jpg');
-}
-
-#third {
-  background-image: url('./assets/Sona3.png');
-}
-
-#fourth {
-  background-image: url('./assets/Sona4.png');
-}
-
-#fifth {
-  background-image: url('./assets/Sona5.jpg');
-}
-
 .bg-img h2 {
   font-size: 3rem;
 }
-
 
 .information {
   background-color: #0a0a0a;
@@ -155,13 +133,12 @@ article {
   border-radius: 8px;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
     gap: 1rem;
   }
-  
+
   article {
     flex-direction: column;
   }
