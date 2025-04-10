@@ -1,7 +1,7 @@
 import Header from "./Header";
 import AbilitySection from "./AbilitySection";
 
-export default function HomePage() {
+export default function SonaPage() {
   
   const abilities = [
     {
