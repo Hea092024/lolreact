@@ -1,5 +1,6 @@
 import Header from "./Header";
 import AbilitySection from "./AbilitySection";
+import "../SonaPage.css"
 
 export default function SonaPage() {
   
