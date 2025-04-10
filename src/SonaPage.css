@@ -1,0 +1,29 @@
+#first {
+  background-image: url('./assets/Sona1.jpg');
+}
+
+#second {
+  background-image: url('./assets/Sona2.jpg');
+}
+
+#third {
+  background-image: url('./assets/Sona3.png');
+}
+
+#fourth {
+  background-image: url('./assets/Sona4.png');
+}
+
+#fifth {
+  background-image: url('./assets/Sona5.jpg');
+}
+
+.sona-image {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sona-video {
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
