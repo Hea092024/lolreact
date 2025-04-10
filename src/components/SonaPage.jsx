@@ -10,7 +10,7 @@ export default function SonaPage() {
       subtitle: "Passive Ability",
       description:
         "Accelerando: Sona gains non-Ultimate ability haste permanently for her basic abilities as she uses her abilities well, up to a cap. Beyond that cap, further successful uses reduce her ultimate's remaining cooldown instead. Power Chord: Every few spell casts, Sona's next attack will deal bonus magic damage in addition to an additional effect based on what basic Ability Sona last activated.",
-      videoSrc: "./assets/Passive.mp4",
+      videoSrc: "./src/assets/SonaPassive.mp4",
     },
     {
       id: "second",
@@ -18,7 +18,7 @@ export default function SonaPage() {
       subtitle: "Q Ability",
       description:
         "Sona plays the Hymn of Valor, sends out bolts of sound, dealing magic damage to two nearby enemies, prioritizing champions and monsters. Sona gains a temporary aura that grants allies tagged by the zone bonus damage on their next attack against enemies.",
-      videoSrc: "./assets/Q.mp4",
+      videoSrc: "./src/assets/SonaQ.mp4",
     },
     {
       id: "third",
