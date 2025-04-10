@@ -1,7 +1,14 @@
-import { useState, useNavigate } from "react";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function Header() {
+  const navigate = useNavigate();
+
+  const handleSelectChange = (e) => {
+    if (e.target.value) {
+      navigate(e.target.value);
+    }
+  };
+
   return (
     <header id="top">
       <nav>
@@ -13,14 +20,12 @@ export default function Header() {
           <select
             className="dropdown"
             name="page"
-            onChange={(e) => {
-              if (e.target.value) window.location.href = e.target.value;
-            }}
+            onChange={handleSelectChange}
           >
             <option value="">Select a Champion</option>
-            <option value="lux.html">Lux</option>
-            <option value="seraphine.html">Seraphine</option>
-            <option value="yuumi.html">Yuumi</option>
+            <option value="/lux">Lux</option>
+            <option value="/seraphine">Seraphine</option>
+            <option value="/yuumi">Yuumi</option>
           </select>
         </form>
 
