@@ -1,9 +1,8 @@
 import Header from "./Header";
 import AbilitySection from "./AbilitySection";
-import "../SonaPage.css"
+import "../SonaPage.css";
 
 export default function SonaPage() {
-  
   const abilities = [
     {
       id: "first",
@@ -62,6 +61,15 @@ export default function SonaPage() {
           />
         ))}
       </main>
+      <footer>
+        <p>
+          Created by
+          <a href="https://github.com/Hea092024" target="_blank">
+            Hector
+          </a>
+        </p>
+        <p>Copyright &copy; 2025. All rights reserved.</p>
+      </footer>
     </div>
   );
 }

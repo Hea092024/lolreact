@@ -133,6 +133,24 @@ article {
   border-radius: 8px;
 }
 
+footer {
+	height: 5rem;
+	display: flex;
+	color: white;
+	font-size: 1.5rem;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+footer p {
+	margin: 5px;
+}
+
+footer a {
+	font-size: 1.7rem;
+}
+
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
