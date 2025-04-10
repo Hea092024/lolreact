@@ -26,7 +26,7 @@ export default function SonaPage() {
       subtitle: "W Ability",
       description:
         "Sona plays the Aria of Perseverance, sending out protective melodies, healing Sona and a nearby wounded ally. Sona gains a temporary aura that grants allies tagged by the zone a temporary shield.",
-      videoSrc: "./assets/SonaW.mp4",
+      videoSrc: "./src/assets/SonaW.mp4",
     },
     {
       id: "fourth",
@@ -34,7 +34,7 @@ export default function SonaPage() {
       subtitle: "E Ability",
       description:
         "Sona plays the Song of Celerity, granting nearby allies bonus Move Speed. Sona gains a temporary aura that grants allied champions tagged by the zone bonus Move Speed.",
-      videoSrc: "./assets/SonaE.mp4",
+      videoSrc: "./src/assets/SonaE.mp4",
     },
     {
       id: "fifth",
@@ -42,7 +42,7 @@ export default function SonaPage() {
       subtitle: "R Ability",
       description:
         "Sona plays her ultimate chord, stunning enemy champions and forcing them to dance and dealing magic damage to them. Each rank reduces the base cooldown of Sona's basic abilities.",
-      videoSrc: "./assets/R.mp4",
+      videoSrc: "./src/assets/SonaR.mp4",
     },
   ];
 
